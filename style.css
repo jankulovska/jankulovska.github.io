@@ -1,0 +1,232 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, indianred , lightblue, white);
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+}
+#navbar{
+    width: 800px;
+    height: 50px;
+    float: right;
+    margin-top: 20px;
+    margin-right: -70px;
+    display: inline;
+
+}
+#navbar a{
+    text-decoration: none;
+    font-variant: all-petite-caps;
+    padding: 20px;
+    font-size: 23px;
+    color: gray;
+}
+a:hover{
+    background-color: royalblue;
+    border-radius: 25px;
+}
+#image{
+    background-image: url("reading-side.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+    margin-top: 130px;
+    margin-left: 150px;
+}
+#intro{
+    display: inline-block;
+    width: 600px;
+    height: 350px;
+    margin-left: 800px;
+    margin-top: -500px;
+}
+#intro p{
+    font-size: 25px;
+    text-align: justify;
+    padding: 35px;
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+}
+#footer{
+    height: 30px ;
+    width: 800px;
+    background-color: lightblue;
+    margin-top: 150px;
+    margin-left: 350px;
+    border-radius: 30px;
+    border: 2px solid royalblue;
+}
+#footer p{
+    margin-top: 3px;
+}
+#image2{
+    background-image: url("RollingDoodle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+    margin-top: 130px;
+    margin-left: 150px;
+}
+#skills{
+    display: inline-block;
+    width: 700px;
+    height: 550px;
+    margin-left: 700px;
+    margin-top: -500px;
+}
+#skills p{
+    font-size: 15px;
+    text-align: justify;
+    padding: 35px;
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+}
+#footer2{
+    height: 30px;
+    width: 800px;
+    background-color: lightblue;
+    margin-top: -15px;
+    margin-left: 350px;
+    border-radius: 30px;
+    border: 2px solid royalblue;
+}
+#footer2 p{
+    margin-top: 3px;
+}
+.travel > p{
+    font-size: 15px;
+    text-align: justify;
+    padding: 15px;
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+}
+.travel{
+    margin-top: 35px;
+    margin-left: 60px;
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    padding-right: 25px;
+}
+#footer3{
+    height: 30px ;
+    width: 800px;
+    background-color: lightblue;
+    margin-top: 70px;
+    margin-left: 350px;
+    border-radius: 30px;
+    border: 2px solid royalblue;
+}
+#footer3 p{
+    margin-top: 3px;
+}
+.gallery{
+    width: 150px;
+    height: 300px;
+    display: inline;
+}
+.gallery > img{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: -80px;
+    border-radius: 30px;
+}
+#fill{
+    height: 200px;
+}
+#fill p{
+    display: none;
+}
+.gallery img {
+    transition: transform .2s; /* Animation */
+}
+
+.gallery img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#drawings{
+    background-image: url("crtezi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    display: inline-block;
+    width: 580px;
+    height: 480px;
+    margin-top: 95px;
+    margin-left: 50px;
+}
+#dr_text{
+    display: inline-block;
+    width: 550px;
+    height: 200px;
+    margin-left: 800px;
+    margin-top: -500px;
+
+}
+#dr_text p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 35px;
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+}
+#footer4{
+    height: 30px ;
+    width: 800px;
+    background-color: lightblue;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 350px;
+    border-radius: 30px;
+    border: 2px solid royalblue;
+}
+#footer4 p {
+    margin-top: 3px;
+}
+#qr {
+    background-image: url("_jankulovska_qr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+    margin-top: 130px;
+    margin-left: 150px;
+}
+#footer5{
+    height: 30px ;
+    width: 800px;
+    background-color: lightblue;
+    margin-top: 197px;
+    margin-bottom: 0px;
+    margin-left: 350px;
+    border-radius: 30px;
+    border: 2px solid royalblue;
+}
+#footer5 p {
+    margin-top: 3px;
+}
+#contact{
+    display: inline-block;
+    float: right;
+    width: 400px;
+    height: 350px;
+    margin-left: 800px;
+    margin-top: -300px;
+    margin-right: 400px;
+}
+#contact p{
+    font-size: 25px;
+    text-align: justify;
+    padding: 35px;
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+}
